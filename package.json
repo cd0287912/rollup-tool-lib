@@ -1,0 +1,22 @@
+{
+  "name": "@cd0287912/tools-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc --noEmit && rollup -c",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [],
+  "author": "忘不了oh",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "prettier": "^3.3.2",
+    "rollup": "^4.18.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-node-externals": "^7.1.2",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.3"
+  }
+}
