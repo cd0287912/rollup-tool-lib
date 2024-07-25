@@ -7,14 +7,14 @@ export const flat = <T>(lists: readonly T[][]): T[] => {
 
 export const first = <T>(
   lists: readonly T[],
-  defaultValue: T | undefined | null = undefined,
+  defaultValue: T | undefined | null = undefined
 ) => {
   return lists?.length > 0 ? lists[0] : defaultValue;
 };
 
 export const last = <T>(
   lists: readonly T[],
-  defaultValue: T | undefined | null = undefined,
+  defaultValue: T | undefined | null = undefined
 ) => {
   return lists?.length > 0 ? lists[lists.length - 1] : defaultValue;
 };
