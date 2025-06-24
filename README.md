@@ -8,3 +8,4 @@
 # rollup-tool-lib3
 # rollup-tool-lib4
 # rollup-tool-lib5
+# rollup-tool-lib6
